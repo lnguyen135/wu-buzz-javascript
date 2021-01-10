@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>WuBuzz-javascript</h2>
+
+<p>Write a short program that prints each number from 1 to n on a new line.
+
+For each multiple of 3, print "Wu" instead of the number.
+
+For each multiple of 5, print "Tang" instead of the number.
+
+For numbers which are multiples of both 3 and 5, print "WuTang Forever" instead of the number.</p>
+
+
+
+<script>
+
+for(let i=1;i<=100;i++){
+if((i%3===0)&&(i%5===0)){
+console.log("WuTang Forever")
+}
+else if(i%3===0){
+console.log("Wu")
+}
+else if(i%5===0){
+console.log("Tang")
+}
+else{
+console.log(i)
+}
+}
+</script>
+
+</body>
+</html>
